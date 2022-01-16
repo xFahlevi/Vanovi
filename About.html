@@ -1,0 +1,131 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Vanovi's esporte</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.0/css/font-awesome.css">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+
+		<div class="container">
+			<div class="navbar">
+				<div class="logo">
+					<a href="Home.html"><img src="Vanovi_s_Img/images/logo 3.png" width="125px"></a>
+				</div>
+				<nav>
+					<ul id="MenuItems">
+						<li><a href="Home.html">Home</a></li>
+						<li><a href="products.html">Product</a></li>
+						<li><a href="About.html">About</a></li>
+						<li><a href="Contact.html">Contact</a></li>
+						<li><a href="account.html">Account</a></li>
+					</ul>
+				</nav>
+				<img src="Vanovi_s_Img/images/menu.png" class="menu-icon" onclick="menutoggle()">
+			</div>
+		</div>
+	
+	<div class="testimonial">
+		<div class="small-container">
+			<div class="row">
+				<div class="col-3">
+					<a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
+					<a href="https://twitter.com"<i class="fab fa-twitter"></i></a>
+					<a href="https://instagram.com" <i class="fab fa-instagram"></i></a>
+						<p>This one is the creator or who has designed this website so that it becomes a technologically advanced 
+							and sophisticated website, he is a very smart and thorough web developer. His name is Setyohadi, 
+							he is a famoust web developer in Asia.</p>
+						<img src="Vanovi_s_Img/images/Tyo.png">
+						<h3>Setyohadi</h3>
+				</div>
+				<div class="col-3">
+					<a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
+					<a href="https://twitter.com"<i class="fab fa-twitter"></i></a>
+					<a href="https://instagram.com" <i class="fab fa-instagram"></i></a>
+						<p>Introduce she is a CEO who was directly appointed by the owner of this website to help manage the website 
+							so that this sports clothing store can grow quite rapidly. She is a very competent person at work.
+							She has been working here since the first time this website was opened</p>
+						<img src="Vanovi_s_Img/images/Vania.png">
+						<h3>Zahra Ivania</h3>
+				</div>
+				<div class="col-3">
+					<a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
+					<a href="https://twitter.com"<i class="fab fa-twitter"></i></a>
+					<a href="https://instagram.com" <i class="fab fa-instagram"></i></a>
+						<p>He is the owner of this website, he is an athlete who finally decided to open this sportswear shop website. The purpose of opening 
+							this website is to make it easier for customers or especially athletes to buy their sports needs without having to visit the store directly.</p>
+						<img src="Vanovi_s_Img/images/Levi.png">
+						<h3>M.Alfareza Fahlevi</h3>
+				</div>
+			</div>
+		</div>
+	</div>
+			
+<!--------- Footer ---------->
+	<div class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="footer-col-1">
+					<h3>Download Our App</h3>
+					<p>Download App for Android and IOs mobile phone.</p>
+					<div class="app-logo">
+						<a href="https://play.google.com/" target="_blank">
+							<img src="Vanovi_s_Img/images/play-store.png"></a>
+						<a href="https://www.apple.com/app-store/" target="_blank">
+							<img src="Vanovi_s_Img/images/app-store.png"></a>
+					</div>
+				</div>
+				<div class="footer-col-2">
+					<img src="Vanovi_s_Img/images/logo 3 white.png">
+					<p>Our Purpose Is To Sustainably Make the Pleasure and Benefits of Sports Accessible to the Many.</p>
+				</div>
+				<div class="footer-col-3">
+					<h3>Follow us</h3>
+					<ul>
+						<li>
+							<a href="https://www.facebook.com" target="_blank">Facebook</a>
+						</li>
+						<li>
+							<a href="https://twitter.com" target="_blank">Twitter</a>
+						</li>
+						<li>
+							<a href="https://instagram.com" target="_blank">Instagram</a>
+						</li>
+						<li>
+							<a href="https://youtube.com" target="_blank">Youtube</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<hr>
+			<p class="copyright">Copyright 2020</p>
+		</div>
+	</div>
+	
+<!--------- JS for Toggle Menu ---------->
+	<script>
+		var MenuItems = document.getElementById("MenuItems");
+		
+		MenuItems.style.maxHeight = "0px";
+		
+		function menutoggle(){
+			if(MenuItems.style.maxHeight == "0px")
+				{
+					MenuItems.style.maxHeight = "200px";
+				}
+			else
+				{
+					MenuItems.style.maxHeight = "0px";
+				}
+		}
+	</script>
+	
+	
+</body>
+</html>

@@ -1,0 +1,147 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Vanovi's esporte</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.0/css/font-awesome.css">
+</head>
+<body>
+
+
+	<div class="header">
+		<div class="container">
+			<div class="navbar">
+				<div class="logo">
+					<a href="Home.html"><img src="Vanovi_s_Img/images/logo 3.png" width="125px"></a>
+				</div>
+				<nav>
+					<ul id="MenuItems">
+						<li><a href="Home.html">Home</a></li>
+						<li><a href="products.html">Product</a></li>
+						<li><a href="About.html">About</a></li>
+						<li><a href="Contact.html">Contact</a></li>
+						<li><a href="account.html">Account</a></li>
+					</ul>
+				</nav>
+				<img src="Vanovi_s_Img/images/menu.png" class="menu-icon" onclick="menutoggle()">
+			</div>
+			
+			
+			<div class="contact">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-1">
+							<div class="contact-info">
+								<h2>Our Office</h2>
+								<h3><i class="fa fa-map-marker"></i>Jl.Haryono III, Pondok Pinang, 12310 </h3>
+								<h3><i class="fa fa-envelope"></i>Vanovi@gmail.com</h3>
+								<h3><i class="fa fa-phone"></i>+62 82299441001</h3>
+							</div>
+						</div>
+						<div class="col-1">
+							<div class="contact-info">
+								<h2>Our Store</h2>
+								<h3><i class="fa fa-map-marker"></i>Jl.Kav.Keuangan VIII, Tanggerang, 15415</h3>
+								<h3><i class="fa fa-envelope"></i>Vanoviesporte@gmail.com</h3>
+								<h3><i class="fa fa-phone"></i>+62 8999239368</h3>
+							</div>
+						</div>
+						<div class="col-1">
+							<div class="contact-form">
+								<form>
+									<div class="row">
+										<div class="col-md-6">
+											<input type="text" class="form-control" placeholder="Your Name" />
+										</div>
+										<div class="col-md-6">
+											<input type="email" class="form-control" placeholder="Your Email" />
+										</div>
+									</div>
+									<div class="form-group">
+										<input type="text" class="form-control" placeholder="Subject" />
+									</div>
+									<div class="form-group">
+										<textarea class="form-control" rows="5" placeholder="Message"></textarea>
+									</div>
+									<div><button class="btn" type="submit">Send Message</button></div>
+								</form>
+							</div>
+						</div>
+						<div class="col-1">
+							<div class="contact-map">
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d991.4573082972715!2d106.77429432912707!3d-6.2861649666740504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f1cc6db20467%3A0xe649ca85f069139a!2sHaryono%20III%20No.2%2C%20RT.9%2FRW.10%2C%20Pd.%20Pinang%2C%20Kec.%20Kby.%20Lama%2C%20Kota%20Jakarta%20Selatan%2C%20Daerah%20Khusus%20Ibukota%20Jakarta%2012310!5e0!3m2!1sid!2sid!4v1625136899535!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+			
+<!--------- Footer ---------->
+	<div class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="footer-col-1">
+					<h3>Download Our App</h3>
+					<p>Download App for Android and IOs mobile phone.</p>
+					<div class="app-logo">
+						<a href="https://play.google.com/" target="_blank">
+							<img src="Vanovi_s_Img/images/play-store.png"></a>
+						<a href="https://www.apple.com/app-store/" target="_blank">
+							<img src="Vanovi_s_Img/images/app-store.png"></a>
+					</div>
+				</div>
+				<div class="footer-col-2">
+					<img src="Vanovi_s_Img/images/logo 3 white.png">
+					<p>Our Purpose Is To Sustainably Make the Pleasure and Benefits of Sports Accessible to the Many.</p>
+				</div>
+				<div class="footer-col-3">
+					<h3>Follow us</h3>
+					<ul>
+						<li>
+							<a href="https://www.facebook.com" target="_blank">Facebook</a>
+						</li>
+						<li>
+							<a href="https://twitter.com" target="_blank">Twitter</a>
+						</li>
+						<li>
+							<a href="https://instagram.com" target="_blank">Instagram</a>
+						</li>
+						<li>
+							<a href="https://youtube.com" target="_blank">Youtube</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<hr>
+			<p class="copyright">Copyright 2020</p>
+		</div>
+	</div>			
+	
+<!--------- JS for Toggle Menu ---------->
+	<script>
+		var MenuItems = document.getElementById("MenuItems");
+		
+		MenuItems.style.maxHeight = "0px";
+		
+		function menutoggle(){
+			if(MenuItems.style.maxHeight == "0px")
+				{
+					MenuItems.style.maxHeight = "200px";
+				}
+			else
+				{
+					MenuItems.style.maxHeight = "0px";
+				}
+		}
+	</script>
+	
+	
+</body>
+</html>
